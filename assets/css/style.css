@@ -40,16 +40,17 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* <a> inside the nav */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* <p> inside the content container */
 p {
     font-size: 16px;
 }
 
+/* main hero image */
 #hero {
     height: 800px;
     width: 100%;
@@ -59,22 +60,50 @@ p {
     object-fit: cover;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* container for horizontal content banners */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* positioning classes for images in horizontal content banners */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* positioning classes for images in horizontal content banners */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Horizontal content banner section */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Horizontal content banner images */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Horizontal content banner headings */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Vertical content banner on right side */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +115,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Vertical content banner article classes */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -93,6 +123,7 @@ p {
     color: #ffffff;
 }
 
+/* Vartical content banner headings */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -100,36 +131,13 @@ p {
     text-align: center;
 }
 
+/* Vartical content banner images */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
@@ -139,6 +147,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
