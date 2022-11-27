@@ -13,6 +13,10 @@ This challenge really made me think about the structure of the HTML and some par
 
 I feel like this challenge left me with a deeper understanding of semantic HTML structure and what improves the accessibility of web pages.
 
+Finished Deployed version:
+https://adrian-kosnik.github.io/Bootcamp-Challenge-1/ <br>
+*(Images seem to load quite slowly, I feel like that might be due to their size)*
+
 ---
 
 ### **The acceptance criteria for this challenge is:**
@@ -32,11 +36,8 @@ N/A
 
 ---
 
-## **Example of changes made**
-
-
 ## **Licence**
-N/A (As far as I am aware)
+UNLICENSED
 
 ---
 ### **This project is built using:**
