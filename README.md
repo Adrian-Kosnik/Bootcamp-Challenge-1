@@ -4,7 +4,7 @@
 
 This is a Web Dev Bootcamp challenge where I was asked to refactor a Webpage to include semantic HTML and improve the accessibility without affecting what the page will look like to the user.
 
-*The page must not differ more thank 10% from the screenshot:*
+*The page must not differ more than 10% from the screenshot:*
 
 ![alt text](challenge_info/01-html-css-git-challenge-demo.png)
 *(Code privided has a footer which seems to be cropped out of this screenshot which was included in Bootcamp course material)*
